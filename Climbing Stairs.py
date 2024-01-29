@@ -1,5 +1,5 @@
 # Dynamic Solution
-def fibonacci(n):
+def climbStairs(n):
     a = [1]
     if n == 1:
         return a
@@ -10,4 +10,4 @@ def fibonacci(n):
 
 
 n = 4
-print(fibonacci(n))
+print(climbStairs(n))
